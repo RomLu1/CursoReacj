@@ -1,6 +1,4 @@
-/* index.css */
 
-/* Reset básico */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,7 +11,6 @@ body {
   color: #000000;
 }
 
-/* Header */
 header {
   background-color: #000000;
   padding: 20px;
@@ -32,14 +29,14 @@ header a:hover {
   color: #6e6e6e;
 }
 
-/* Contenedores */
+
 .container {
   max-width: 960px;
   margin: 40px auto;
   padding: 0 20px;
 }
 
-/* Lista de productos centrada y adaptativa */
+
 .product-list {
   display: grid;
   grid-auto-flow: row;
@@ -74,7 +71,7 @@ header a:hover {
 .product-card h4 {
   font-size: 1.1rem;
   margin-bottom: 8px;
-  height: 48px; /* para mantener altura uniforme */
+  height: 48px; 
   overflow: hidden;
 }
 
@@ -84,7 +81,7 @@ header a:hover {
   margin-bottom: 10px;
 }
 
-/* Botones */
+
 button, .btn-link {
   background-color: #454545;
   border: none;
@@ -103,7 +100,6 @@ button:hover, .btn-link:hover {
   background-color: #000000;
 }
 
-/* Formularios */
 form {
   background-color: rgb(151, 151, 151);
   padding: 25px;
@@ -126,7 +122,7 @@ form button {
   width: 100%;
 }
 
-/* Detalle producto */
+
 .product-detail {
   max-width: 600px;
   background-color: rgb(255, 255, 255);
